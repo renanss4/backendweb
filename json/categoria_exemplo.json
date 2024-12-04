@@ -1,0 +1,20 @@
+[
+  {
+    "nome": "Eletrônicos",
+    "descricao": "Produtos eletrônicos e acessórios.",
+    "anuncios": [
+      { "anuncio_id": "63f7a2b8e57f430a88d9b101" },
+      { "anuncio_id": "63f7a2b8e57f430a88d9b102" }
+    ]
+  },
+  {
+    "nome": "Esportes",
+    "descricao": "Equipamentos e produtos para esportes.",
+    "anuncios": [{ "anuncio_id": "63f7a2b8e57f430a88d9b103" }]
+  },
+  {
+    "nome": "Móveis",
+    "descricao": "Móveis para casa e escritório.",
+    "anuncios": [{ "anuncio_id": "63f7a2b8e57f430a88d9b104" }]
+  }
+]

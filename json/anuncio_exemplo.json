@@ -1,0 +1,35 @@
+[
+  {
+    "titulo": "Notebook Dell Inspiron",
+    "descricao": "Notebook semi-novo, com 8GB RAM e SSD de 256GB.",
+    "preco": 2500.0,
+    "categoria_id": "63f7a2b8e57f430a88d9b001",
+    "usuario_id": "63f7a2b8e57f430a88d9b002",
+    "data_expiracao": "2024-12-31",
+    "visibilidade": "publico",
+    "compartilhado_com": []
+  },
+  {
+    "titulo": "Bicicleta Caloi 100",
+    "descricao": "Bicicleta de passeio, em ótimo estado.",
+    "preco": 800.0,
+    "categoria_id": "63f7a2b8e57f430a88d9b003",
+    "usuario_id": "63f7a2b8e57f430a88d9b004",
+    "data_expiracao": "2024-12-15",
+    "visibilidade": "privado",
+    "compartilhado_com": []
+  },
+  {
+    "titulo": "Cadeira Gamer",
+    "descricao": "Cadeira em couro sintético, preta e vermelha.",
+    "preco": 1500.0,
+    "categoria_id": "63f7a2b8e57f430a88d9b005",
+    "usuario_id": "63f7a2b8e57f430a88d9b006",
+    "data_expiracao": "2024-11-30",
+    "visibilidade": "compartilhado",
+    "compartilhado_com": [
+      "63f7a2b8e57f430a88d9b002",
+      "63f7a2b8e57f430a88d9b003"
+    ]
+  }
+]

@@ -1,0 +1,35 @@
+[
+  {
+    "nome": "João",
+    "sobrenome": "Silva",
+    "email": "joao.silva@gmail.com",
+    "cpf": "123.456.789-10",
+    "telefone": "(11) 98765-4321",
+    "senha": "senha123",
+    "papel": "usuario",
+    "cep": "01001-000",
+    "anuncios": []
+  },
+  {
+    "nome": "Maria",
+    "sobrenome": "Oliveira",
+    "email": "maria.oliveira@gmail.com",
+    "cpf": "987.654.321-00",
+    "telefone": "(21) 91234-5678",
+    "senha": "senha123",
+    "papel": "usuario",
+    "cep": "22041-001",
+    "anuncios": [{ "anuncio_id": "63f7a2b8e57f430a88d9b123" }]
+  },
+  {
+    "nome": "Carlos",
+    "sobrenome": "Souza",
+    "email": "carlos.souza@empresa.com",
+    "cpf": "456.789.123-09",
+    "telefone": "(31) 99876-5432",
+    "senha": "senha123",
+    "papel": "admin",
+    "cep": "30110-001",
+    "anuncios": []
+  }
+]
