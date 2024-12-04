@@ -18,7 +18,11 @@ usuarioRotas.post("/admin", tryCatch(UsuarioController.criarUsuarioAdmin));
   4. /buscar?email=fulano@email.com - retorna o usuário com o email
   5. /buscar?nome=fulano&email=fulano@email.com - retorna o usuário com o nome e email
  */
-usuarioRotas.get("/buscar", tryCatch(UsuarioController.buscarUsuarios));
+usuarioRotas.get(
+  "/buscar",
+  checkToken,
+  tryCatch(UsuarioController.buscarUsuarios)
+);
 
 usuarioRotas.get(
   "/logado",

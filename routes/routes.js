@@ -18,7 +18,7 @@ routes.post("/login", tryCatch(UsuarioController.loginUsuario));
 
 // Rota privada
 routes.use("/usuario", usuarioRotas);
-routes.use("/categoria", categoriaRotas);
+routes.use("/categoria", checkToken, categoriaRotas);
 routes.use("/anuncio", checkToken, anuncioRotas);
 
 // 404 - Not Found
