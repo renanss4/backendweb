@@ -20,7 +20,7 @@ const startServer = () => {
 
   server.listen(port, () => {
     console.log(`Rodando na porta ${port}!`);
-    console.log(`Abra seu navegador em: http://127.0.0.1:${port}`);
+    // console.log(`Abra seu navegador em: http://127.0.0.1:${port}`);
   });
 };
 
