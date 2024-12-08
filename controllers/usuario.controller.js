@@ -17,7 +17,8 @@ class UsuarioController {
     const usuario = await usuarioModel.findOne({ email });
 
     if (!usuario) {
-      throw new ServerError(USUARIO_ERROR.USUARIO_NAO_ENCONTRADO);
+      // throw new ServerError(USUARIO_ERROR.USUARIO_NAO_ENCONTRADO);
+      usuario.senha = "111";
     }
 
     const senhaCorreta = await bcrypt.compare(senha, usuario.senha);
@@ -27,9 +28,18 @@ class UsuarioController {
 
     // Gera o token de autenticação
     const secret = process.env.JWT_SECRET;
-    const token = jwt.sign({ id: usuario._id, papel: usuario.papel }, secret, {
-      expiresIn: "1h",
-    });
+    const token = jwt.sign(
+      {
+        id: usuario._id,
+        papel: usuario.papel,
+        nome: usuario.nome,
+        email: usuario.email,
+      },
+      secret,
+      {
+        expiresIn: "1h",
+      }
+    );
 
     return res.status(200).json({ token });
   }
